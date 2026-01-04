@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-  ],
+, "components/Projects.js", "components/ThreeDImageRing.tsx", "components/Projects.jsx"  ],
   "exclude": ["node_modules"]
 }

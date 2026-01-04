@@ -55,22 +55,8 @@ export default function Contact() {
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
         </svg>
+  
       ),
-      title: 'Email',
-      details: 'akililuabera44@gmail.com',
-      link: 'mailto:akililuabera44@gmail.com'
-    },
-    {
-      icon: (
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-        </svg>
-      ),
-      title: 'Phone',
-      details: '+251 909 630346',
-      link: 'tel:+251909630346'
-    },
-    {
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -78,8 +64,8 @@ export default function Contact() {
         </svg>
       ),
       title: 'Location',
-      details: 'Addis Ababa, Ethiopia',
-      link: '#'
+      details: 'ArbaMinch, Ethiopia',
+      link: 'https://www.google.com/maps/place/Arba+Minch+Crocodile+Ranch+Entrance/@6.0220392,37.5488883,13.49z/data=!4m15!1m8!3m7!1s0x17babc91df1c1f4b:0x192439451e905b6a!2sArba+Minch!3b1!8m2!3d6.0349927!4d37.557322!16zL20vMDZrOXM1!3m5!1s0x17babd00430e79e5:0x3de032b34e297917!8m2!3d6.035158!4d37.5804754!16s%2Fg%2F11wjlklzmt?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoKLDEwMDc5MjA2OUgBUAM%3D'
     }
   ];
 

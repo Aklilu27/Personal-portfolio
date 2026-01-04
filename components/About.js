@@ -2,7 +2,7 @@ export default function About() {
   const expertiseAreas = [
     { 
       name: 'Frontend Development', 
-      icon: '💻',
+     
       description: 'Modern web applications with React, Next.js, and responsive design',
       technologies: ['React', 'Next.js', 'HTML5', 'CSS3', 'JavaScript']
     },
@@ -20,7 +20,7 @@ export default function About() {
     },
     { 
       name: 'AI & Machine Learning', 
-      icon: '🤖',
+      
       description: 'Intelligent systems and data analysis with Python and ML frameworks',
       technologies: ['Python', 'TensorFlow', 'Scikit-learn', 'NLP']
     }

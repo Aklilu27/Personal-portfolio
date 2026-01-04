@@ -1,61 +1,57 @@
 "use client";
 
+import Image from "next/image";
+
 export default function Projects() {
   const projects = [
     {
       title: "Spam Classifier",
       description:
         "Machine learning system that accurately identifies and filters spam messages using NLP techniques and Python.",
-      technologies: ["Python", "TensorFlow", "NLP", "Scikit-learn", "Pandas"],
       category: "AI/ML",
       gradient: "from-green-500 to-blue-500",
-      stack: ["Python", "Machine Learning", "NLP"],
-      image: "/projects/spam.png",
-      link: "https://spam-classifier-k1vn.onrender.com", // <-- Add your URL here
+      stack: ["Python", "TensorFlow", "NLP", "Scikit-learn", "Pandas"],
+      image: "/projects/spam.jpg",
+      link: "https://spam-classifier-k1vn.onrender.com",
     },
     {
       title: "Library Management System",
       description:
         "Comprehensive library management solution with book tracking, user management, and analytics dashboard.",
-      technologies: ["Next.js", "React", "MongoDB", "Node.js", "Express"],
       category: "Full Stack",
       gradient: "from-purple-500 to-pink-500",
-      stack: ["React", "MongoDB", "Express"],
-      image: "/projects/library.png",
+      stack: ["Next.js", "MongoDB", "Express"],
+      image: "/projects/library.jpg",
       link: "https://yourwebsite.com/library-system",
     },
     {
       title: "Audio Streaming Site",
       description:
         "Modern audio streaming platform with real-time playback, user playlists, and admin panel.",
-      technologies: ["React", "Node.js", "MongoDB"],
       category: "Full Stack",
       gradient: "from-orange-500 to-red-500",
       stack: ["React", "Node.js", "MongoDB"],
-      image: "/projects/audio.png",
+      image: "/projects/audio.jpg",
       link: "https://yourwebsite.com/audio-streaming",
     },
     {
       title: "Simple Blog Site",
       description:
         "Clean and responsive blog platform with markdown support and authentication.",
-      technologies: ["Next.js", "PostgreSQL", "Tailwind CSS"],
       category: "Full Stack",
       gradient: "from-blue-500 to-teal-500",
       stack: ["Next.js", "PostgreSQL"],
-      image: "/projects/blog.png",
+      image: "/projects/blog.jpg",
       link: "https://yourwebsite.com/blog",
     },
-  
     {
-      title: "Child and Women Protection Case Management System",
+      title: "Child and Women Protection System",
       description:
-        "A web-based system designed to manage cases related to child and women protection efficiently. It helps organizations track cases, monitor interventions, and generate reports for decision-making.",
-      technologies: ["PHP Laravel", "MySQL", "Bootstrap"],
+        "A web-based system designed to manage cases related to child and women protection efficiently.",
       category: "Full Stack",
       gradient: "from-yellow-500 to-red-500",
-      stack: ["PHP Laravel", "MySQL"],
-      image: "/projects/ecommerce.png",
+      stack: ["React js","PHP Laravel", "MySQL"],
+      image: "/projects/child_dashboard.jpg",
       link: "https://perpetrators.et/",
     },
   ];
@@ -70,7 +66,7 @@ export default function Projects() {
     PostgreSQL: "🐘",
     MySQL: "🐬",
     Django: "🌿",
-    PHP: "🐘",
+    Laravel: "🐘",
     NLP: "🧠",
     "Machine Learning": "🤖",
   };
@@ -92,7 +88,19 @@ export default function Projects() {
               key={index}
               className="bg-white rounded-xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-xl transition-all flex flex-col"
             >
+              {/* Gradient bar */}
               <div className={`h-2 bg-gradient-to-r ${project.gradient}`} />
+
+              {/* Project image */}
+              <div className="w-full h-48 relative">
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  fill
+                  className="object-cover"
+                  unoptimized
+                />
+              </div>
 
               <div className="p-6 flex flex-col flex-1">
                 <div className="flex justify-between items-start mb-3">
@@ -109,25 +117,13 @@ export default function Projects() {
                 </p>
 
                 {/* STACK */}
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap gap-2 mb-5">
                   {project.stack.map((tech, i) => (
                     <span
                       key={i}
                       className="flex items-center gap-1 px-2 py-1 bg-gray-100 text-xs rounded"
                     >
                       <span>{stackIcons[tech]}</span>
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-
-                {/* TECH TAGS */}
-                <div className="flex flex-wrap gap-2 mb-5">
-                  {project.technologies.map((tech, i) => (
-                    <span
-                      key={i}
-                      className="px-2 py-1 bg-gray-50 text-xs rounded text-gray-500"
-                    >
                       {tech}
                     </span>
                   ))}

@@ -5,7 +5,7 @@ export default function Skills() {
     { name: 'React/Next.js', level: 85 },
     { name: 'Node.js/Express', level: 82 },
     { name: 'HTML5/CSS3', level: 95 },
-    { name: 'PHP', level: 78 },
+    { name: 'Laravel', level: 78 },
     { name: 'Machine Learning', level: 80 },
     { name: 'Natural Language Processing', level: 75 }
   ];

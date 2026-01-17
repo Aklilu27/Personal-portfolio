@@ -65,7 +65,7 @@ export default function Contact() {
       ),
       title: 'Location',
       details: 'ArbaMinch, Ethiopia',
-      link: 'https://www.google.com/maps/place/Arba+Minch+Crocodile+Ranch+Entrance/@6.0220392,37.5488883,13.49z/data=!4m15!1m8!3m7!1s0x17babc91df1c1f4b:0x192439451e905b6a!2sArba+Minch!3b1!8m2!3d6.0349927!4d37.557322!16zL20vMDZrOXM1!3m5!1s0x17babd00430e79e5:0x3de032b34e297917!8m2!3d6.035158!4d37.5804754!16s%2Fg%2F11wjlklzmt?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoKLDEwMDc5MjA2OUgBUAM%3D'
+      link: 'https://www.google.com/maps/place/Kola+Shara/@6.0660904,37.5256999,12.78z/data=!4m5!3m4!1s0x17baa39090591ae3:0x6091c3e9f7692c5!8m2!3d6.0902029!4d37.5675774?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoKLDEwMDc5MjA2OUgBUAM%3D'
     }
   ];
 

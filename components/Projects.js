@@ -12,7 +12,7 @@ export default function Projects() {
       gradient: "from-green-500 to-blue-500",
       stack: ["Python", "TensorFlow", "NLP", "Scikit-learn", "Pandas"],
       image: "/projects/spam.jpg",
-      link: "https://spam-classifier-cmzr.onrender.com",
+      link: "https://react-audiostreamapp-1.onrender.com",
     },
     {
       title: "Library Management System",

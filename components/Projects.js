@@ -12,7 +12,7 @@ export default function Projects() {
       gradient: "from-green-500 to-blue-500",
       stack: ["Python", "TensorFlow", "NLP", "Scikit-learn", "Pandas"],
       image: "/projects/spam.jpg",
-      link: "https://react-audiostreamapp-1.onrender.com",
+      link: "https://spam-classifier-cmzr.onrender.com",
     },
     {
       title: "Library Management System",
@@ -32,7 +32,7 @@ export default function Projects() {
       gradient: "from-orange-500 to-red-500",
       stack: ["React", "Node.js", "MongoDB"],
       image: "/projects/audio.jpg",
-      link: "https://yourwebsite.com/audio-streaming",
+      link: "https://react-audiostreamapp-1.onrender.com",
     },
     {
       title: "Simple Blog Site",

@@ -27,10 +27,7 @@ export default function RootLayout({
       <body className="antialiased">
         {children}
           {/* IntelliChat AI Assistant */}
-        <Script
-          src="https://intellichat.io/api/widget.js?id=37191919"
-          strategy="afterInteractive"
-        />
+       <script src="https://intellichat.io/api/widget.js?id=37191919"></script>
       </body>
     </html>
   );
